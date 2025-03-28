@@ -1,0 +1,36 @@
+/* style.css */
+
+body {
+    font-family: 'Comic Sans MS', cursive;
+    margin: 20px;
+}
+
+h1 {
+    color: #690202;
+}
+
+table {
+    width: 100%;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: none;
+    text-align: center;
+}
+
+th {
+    background-color: #edabab;
+}
+
+a {
+    text-decoration: none;
+    color: #690202;
+}
+
+button {
+    background-color: #690202;
+    padding: 5px 5px;
+    color: white;
+}

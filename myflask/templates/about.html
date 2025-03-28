@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+    {% block content %}
+    <div id="container">
+    <h1>About me, y'all...</h1>
+    <p>
+        <ol>
+        {% for name in names %} 
+          
+          {% if name == 'Tim' %}
+            Tim is the best y'all
+        
+          {% endif %}
+
+        {% endfor %} 
+        </ol> 
+    </p>
+    </div>
+    {% endblock %}
+
+   
