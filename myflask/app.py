@@ -31,12 +31,12 @@ def about():
 def contact():
     return render_template("contact.html")
 
-# @app.route('/')
-# def home():
-#     """Display username if logged in, otherwise show 'Not logged in'."""
-#     if 'username' in session:
-#         return f"Hello, {session['username']}!"
-#     return "Not logged in"
+@app.route('/')
+def home():
+    """Display username if logged in, otherwise show 'Not logged in'."""
+    if 'username' in session:
+        return f"Hello, {session['username']}!"
+    return "Not logged in"
 
 @app.route('/login', methods=['GET', 'POST'])
 def login():
